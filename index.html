@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Emojee - Emoji 🔍 Application</h1>
+        <div class="hr-line"></div>
+        <form id="searchForm">
+            <button class="click-btn" id="all">All</button>
+            <button class="click-btn" id="face">Face</button>
+            <button class="click-btn" id="heart">Heart</button>
+            <button class="click-btn" id="hand">Hand</button>
+            <button class="click-btn" id="sport">Sports</button>
+            <button class="click-btn" id="flag">Flag</button>
+            <input type="text" id="searchInput" placeholder="emojis Search...">
+        </form>
+        
+    </div>
+    <div id="emoje-container"></div>
+
+    <div class="copyAlert" style="display: none;">
+    </div>
+    
+    <script src="./emojis.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
